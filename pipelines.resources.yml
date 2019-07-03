@@ -3,7 +3,7 @@ resources:
   - name: app
     type: GitRepo
     configuration:
-      gitProvider: myGitHub
-      path: myproject/app
+      gitProvider: GitHub
+      path: iwashitah/jfrog-pipeline/pipelines.setup.yml
       branches:
         include: master
