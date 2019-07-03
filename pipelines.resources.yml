@@ -4,6 +4,6 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: GitHub
-      path: iwashitah/jfrog-pipeline/pipelines.resources.yml
+      path: iwashitah/jfrog-pipeline
       branches:
         include: master
