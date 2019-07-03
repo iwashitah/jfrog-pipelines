@@ -1,4 +1,3 @@
-
 resources:
   - name: app
     type: GitRepo
