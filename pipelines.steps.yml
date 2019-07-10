@@ -36,4 +36,6 @@ pipelines:
             - name: step_3
         execution:
           onExecute:
-            - printenv
+            - docker pull alpine:3.3
+            - docker tag alpine:3.3 docker-local.artifactory/alpine:3.3
+            - docker push docker-local.artifactory/alpine:3.3
