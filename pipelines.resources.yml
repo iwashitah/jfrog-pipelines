@@ -10,5 +10,4 @@ resources:
         commit:                false
         pullRequestCreate:     false
         pullRequestClose:      false
-        releaseRequestCreate:  false
         tagCreate:             false
