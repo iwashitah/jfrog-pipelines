@@ -10,5 +10,4 @@ resources:
         commit:                true
         pullRequestCreate:     true
         pullRequestClose:      true
-        releaseRequestCreate:  true
         tagCreate:             true
