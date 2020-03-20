@@ -6,3 +6,9 @@ resources:
       path: iwashitah/jfrog-pipelines
       branches:
         include: master
+      buildOn:
+        commit:                true
+        pullRequestCreate:     true
+        pullRequestClose:      true
+        releaseRequestCreate : true
+        tagCreate:             true
