@@ -8,6 +8,6 @@ resources:
         include: master
       buildOn:
         commit:                true
-        pullRequestCreate:     true
-        pullRequestClose:      true
-        tagCreate:             true
+        pullRequestCreate:     false
+        pullRequestClose:      false
+        tagCreate:             false
