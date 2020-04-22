@@ -39,4 +39,4 @@ pipelines:
             - docker pull alpine:3.3
             - docker tag alpine:3.3 172.20.1.2:8082/docker/alpine:3.3
             - docker login -u admin -p P@ssw0rd123 172.20.1.2:8082
-            - docker push 172.20.0.2:8082/docker/alpine:3.3
+            - docker push 172.20.1.2:8082/docker/alpine:3.3
