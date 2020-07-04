@@ -37,6 +37,6 @@ pipelines:
         execution:
           onExecute:
             - docker pull alpine:3.3
-            - docker tag alpine:3.3 10.1.0.226:8082/docker/alpine:3.3
-            - docker login -u admin -p P@ssw0rd123 10.1.0.226:8082
-            - docker push 10.1.0.226:8082/docker/alpine:3.3
+            - docker tag alpine:3.3 artifactory-artifactory:8082/docker/alpine:3.3
+            - docker login -u admin -p P@ssw0rd123 artifactory-artifactory:8082
+            - docker push artifactory-artifactory:8082/docker/alpine:3.3
