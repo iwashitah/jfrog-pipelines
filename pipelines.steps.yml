@@ -37,6 +37,6 @@ pipelines:
         execution:
           onExecute:
             - docker pull alpine:3.3
-            - docker tag alpine:3.3 docker-local.artifactory-jp-artifactory-nginx.artifactory-jp.svc.cluster.local/alpine:3.3
-            - docker login -u admin -p password docker-local.artifactory-jp-artifactory-nginx.artifactory-jp.svc.cluster.local
-            - docker push docker-local.artifactory-jp-artifactory-nginx.artifactory-jp.svc.cluster.local/alpine:3.3
+            - docker tag alpine:3.3 docker-local.artifactory-jp-artifactory-nginx.artifactory-jp/alpine:3.3
+            - docker login -u admin -p password docker-local.artifactory-jp-artifactory-nginx.artifactory-jp
+            - docker push docker-local.artifactory-jp-artifactory-nginx.artifactory-jp/alpine:3.3
